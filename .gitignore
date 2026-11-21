@@ -1,0 +1,28 @@
+# Competition data
+data/
+train/
+test/
+*.csv
+
+# Model weights and training results
+pretrained/
+artifacts/
+outputs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Local configuration and credentials
+.env
+.env.*
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
